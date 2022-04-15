@@ -28,4 +28,16 @@ from sklearn.metrics import classification_report
 
 Contributors In addtion to me the GW Bootcamp TA, LA, and tutors help me create this project
 
+##FINDINGS 
+The base line has 3 month time frame and a short window of 4 and a long window of 100
+![](baseline_svm_model.png)
+
+When I changed the 3 month time frame the stradegy returns improved slightly  
+
+![](6_month_svm_model.png)
+
+When I change the baseline long window from 50 to 100 the stragegy returns performed closer to the actual returns
+
+![](window_change_svm_model.png)
+
 License The Source code is for educational purposes only and should not be used to make any professional recomendations. Feel free to use for any educational needs
